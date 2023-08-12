@@ -36,3 +36,29 @@ body {
     
     font-size: 13px;
 }
+.right {
+    width: calc(100% - 250px);
+}
+
+.pb {
+    padding-bottom: 20px;
+}
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.title:before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: #00ffff;
+}
