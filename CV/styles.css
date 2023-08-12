@@ -109,3 +109,25 @@ body {
 .skills .li_wrap:hover .icon{
     background: #5f9ea0;
 }
+.header {
+    background: #008080;
+    padding: 15px 30px;
+    color: #000;
+    height: 250px;
+}
+.header .name{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+.header .role{
+    font-weight: 80;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5f9ea0;
+}
+.header .about {
+    margin-top: 10px;
+    line-height: 26px;
+}
