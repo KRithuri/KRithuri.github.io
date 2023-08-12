@@ -131,3 +131,59 @@ body {
     margin-top: 10px;
     line-height: 26px;
 }
+.right_inner{
+    padding: 30px;
+    color: #292b2f;
+}
+.right_inner .education{
+    margin-top: 30px;
+}
+.right_inner .li_wrap{
+    display: flex;
+    margin-bottom: 15px;
+}
+.right_inner .li_wrap .date{
+    width: 125px;
+    color: #000;
+}
+.right_inner .li_wrap .info{
+    width: calc(100% - 125px);
+    padding-left: 25px;
+    position: relative;
+}
+.right_inner .li_wrap .info_title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #000;
+}
+.right_inner .li_wrap .info_company{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 3px;
+    color: #0000cd;
+}
+.right_inner .li_wrap .info_cont{
+    margin-top: 15px;
+
+}
+.right_inner .li_wrap .info:before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background:#00ffff;
+    border-radius: 50%;
+}
+.right_inner .li_wrap .info:after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width: 2px;
+    height: 90px;
+    background:#00ffff;
+    border-radius: 50%;
+}
