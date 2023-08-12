@@ -82,3 +82,30 @@ body {
     width: calc(100% - 50px);
     word-break: break-word;
 }
+.skills ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills .li_wrap {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: #5f9ea0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.skills .li_wrap .text {
+    margin-top: 5px;
+}
+.skills .li_wrap:hover{
+    background: #00ffff;
+}
+.skills .li_wrap:hover .icon{
+    background: #5f9ea0;
+}
