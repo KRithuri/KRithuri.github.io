@@ -8,3 +8,9 @@
 body {
     background: linear-gradient(to left, #001f3f, #39cccc, #001f3f);
 }
+.resume {
+    width: 800px;
+    background: #5f9ea0;
+    margin: 25px auto;
+    display: flex;
+}
